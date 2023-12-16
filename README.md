@@ -1,7 +1,7 @@
 ### <img src="https://www.adopsinsider.com/wp-content/uploads/2016/11/Charles-Proxy-Logo.png" title="database" alt="database" width="400" height="150"/> 
 ### Charles proxy
 <hr>
-<h3>С помощью Charles Proxy был выполнен перехват трафик с сайта <a href="https://demowebshop.tricentis.com/"> https://demowebshop.tricentis.com/ </a> согласно следующим заданиям.<h3>
+<h4>С помощью Charles Proxy был выполнен перехват трафик с сайта <a href="https://demowebshop.tricentis.com/"> https://demowebshop.tricentis.com/ </a> согласно следующим заданиям.<h4>
 <h3> Задание 1.1</h3>
 Необходимо изменить количество товаров в корзине на уже известном ресурсе http://demowebshop.tricentis.com/cart <br>
 Например, в запросе отправляется "2 товара", а должны вернуть "500".<br>
@@ -16,7 +16,7 @@
 Необходимо перебрасить запросы с одного окружения на другой. Например, не можем проводить прямое тестирование на проде, а должны стучаться к окружению для тестирования. Предположим, что <a href="https://demowebshop.tricentis.com/"> https://demowebshop.tricentis.com/ </a> это продовская версия, а <a href="https://demowebshop.tricentis.com/qa"> https://demowebshop.tricentis.com/qa </a> это QA стенд (этой страницы не существует). Задача перенаправить запрос с Prod на QA.<br>
 <a href="https://github.com/Dzianis-Brahinets/Charles-proxy/blob/225d008f013ed2aad093ffd1fbe3470727566ffa/Charles%201.3.mp4"> Решение</a>
 <hr>
-<h3> Выполнен перехват трафика с мобильного телефона согласно следующим заданиям.</p>
+<h4> Выполнен перехват трафика с мобильного телефона согласно следующим заданиям.</h4>
 <hr>
 <h3> Задание 2.1</h3>
 Необходимо удалить товары из корзины на <a href="https://demowebshop.tricentis.com/cart"> https://demowebshop.tricentis.com/cart </a>.<br>
